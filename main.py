@@ -2,7 +2,7 @@ import os
 from google.cloud import secretmanager
 
 client = secretmanager.SecretManagerServiceClient()
-secret_name = "my-secret"
+secret_name = "ALPHA_KEY"
 project_id = os.environ["GCP_PROJECT"]
 resource_name = f"projects/{project_id}/secrets/{secret_name}/versions/latest"
 response = client.access_secret_version(resource_name)
