@@ -9,5 +9,5 @@ It gets the stock information from AlphaVantage API, loads the data into python 
 ### Setup
 In order to set up this application yourself you will need to do the following:
 1. Get a key from the AlphaVantage service (https://www.alphavantage.co/)
+2. Set up this key in your gcloud environment (https://dev.to/googlecloud/using-secrets-in-google-cloud-functions-5aem)
 2. Set up your twitter bot
-3. Configure your google cloud environment (https://dev.to/googlecloud/using-secrets-in-google-cloud-functions-5aem)
